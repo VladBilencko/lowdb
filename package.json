@@ -23,8 +23,7 @@
     "build:esm": "tsc -p tsconfig.esm.json",
     "build:types": "tsc -p tsconfig.types.json",
     "prepublishOnly": "npm run build",
-    "postversion": "git push && git push --tags && npm publish",
-    "prepare": "husky install"
+    "postversion": "git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
